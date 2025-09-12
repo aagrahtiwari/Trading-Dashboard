@@ -50,3 +50,34 @@ StockTradingAssistant/
   │ └── test_cases.py # Unit tests for validation
 
 │── README.md # Documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/StockTradingAssistant.git
+   cd StockTradingAssistant
+   
+2. **Install Dependencies**
+  pip install -r requirements.txt
+
+3. **Run the Dashboard**
+  python -m streamlit run dashboard/dashboard.py
+
+4. **Access the App**
+  Open browser → http://localhost:8501
+
+
+## ✅ Test Cases
+
+*Input*: Stock ticker AAPL, SMA(20), SMA(50)
+*Output*: Buy signal generated when SMA(20) > SMA(50).
+
+*Input*: Stock ticker TSLA, RSI(14)
+*Output*: RSI > 70 → Overbought (Sell signal), RSI < 30 → Oversold (Buy signal).
+
+*Input*: Backtest period 2022-01-01 to 2023-01-01
+*Output*: Strategy return % vs Benchmark return %.
+
