@@ -58,7 +58,7 @@ StockTradingAssistant/
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/StockTradingAssistant.git
-   cd StockTradingAssistant
+   cd Trading-Dashboard
    
 2. **Install Dependencies**
   pip install -r requirements.txt
