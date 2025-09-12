@@ -37,15 +37,16 @@ This project starts as a **minor project** but is designed to be scaled into a *
 ## 📂 Project Structure
 
 StockTradingAssistant/
+
 │── dashboard/
-│ └── dashboard.py # Streamlit dashboard
+  │ └── dashboard.py # Streamlit dashboard
 
 │── analysis/
-│ └── stock_analysis.py # Core logic for indicators & backtesting
+  │ └── stock_analysis.py # Core logic for indicators & backtesting
 
 │── data/ # (Optional) Saved stock data
 
 │── tests/
-│ └── test_cases.py # Unit tests for validation
+  │ └── test_cases.py # Unit tests for validation
 
 │── README.md # Documentation
